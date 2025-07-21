@@ -1,0 +1,46 @@
+brands.json
+{"_id":
+    {"$oid":"601ac115be37ce2ead437551"},
+    "barcode":"511111019862",
+    "category":"Baking",
+    "categoryCode":"BAKING",
+    "cpg":{"$id":{"$oid":"601ac114be37ce2ead437550"},"$ref":"Cogs"},
+    "name":"test brand @1612366101024",
+    "topBrand":false
+}
+
+receipts.json
+{"_id":
+    {"$oid":"5ff1e1eb0a720f0523000575"},
+    "bonusPointsEarned":500,
+    "bonusPointsEarnedReason":"Receipt number 2 completed, bonus point schedule DEFAULT (5cefdcacf3693e0b50e83a36)",
+    "createDate":
+      {"$date":1609687531000},
+      "dateScanned":
+        {"$date":1609687531000},
+        "finishedDate":
+          {"$date":1609687531000},
+          "modifyDate":
+          {"$date":1609687536000},
+          "pointsAwardedDate":
+          {"$date":1609687531000},
+          "pointsEarned":"500.0",
+          "purchaseDate":
+          {"$date":1609632000000},
+          "purchasedItemCount":5,
+          "rewardsReceiptItemList":[{"barcode":"4011","description":"ITEM NOT FOUND","finalPrice":"26.00","itemPrice":"26.00","needsFetchReview":false,"partnerItemId":"1","preventTargetGapPoints":true,"quantityPurchased":5,"userFlaggedBarcode":"4011","userFlaggedNewItem":true,"userFlaggedPrice":"26.00","userFlaggedQuantity":5}],
+          "rewardsReceiptStatus":"FINISHED",
+          "totalSpent":"26.00",
+          "userId":"5ff1e1eacfcf6c399c274ae6"
+}
+
+users.json
+{"_id":
+    {"$oid":"5ff1e194b6a9d73a3a9f1052"},
+    "active":true,
+    "createdDate":{"$date":1609687444800},
+    "lastLogin":{"$date":1609687537858},
+    "role":"consumer",
+    "signUpSource":"Email",
+    "state":"WI"
+}

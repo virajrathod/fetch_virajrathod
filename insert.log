@@ -1,0 +1,209 @@
+2025-07-20 18:28:00,669 - INFO - Connecting to MySQL database
+2025-07-20 18:28:01,036 - INFO - Loading JSON file: users.json
+2025-07-20 18:28:01,049 - INFO - Loading JSON file: brands.json
+2025-07-20 18:28:01,054 - INFO - Loading JSON file: receipts.json
+2025-07-20 18:28:14,271 - INFO - Starting insert into brands table
+2025-07-20 18:29:27,419 - INFO - Starting insert into receipts table
+2025-07-20 18:33:11,545 - INFO - Connecting to MySQL database
+2025-07-20 18:33:11,922 - INFO - Loading JSON file: users.json
+2025-07-20 18:33:11,925 - INFO - Loading JSON file: brands.json
+2025-07-20 18:33:11,932 - INFO - Loading JSON file: receipts.json
+2025-07-20 18:33:25,551 - INFO - Starting insert into brands table
+2025-07-20 18:34:40,205 - INFO - Starting insert into receipts table
+2025-07-21 08:39:11,512 - INFO - Connecting to MySQL database
+2025-07-21 08:39:11,882 - INFO - Loading JSON file: users.json
+2025-07-21 08:39:11,884 - WARNING - File users.json is not a JSON array, loading line-by-line.
+2025-07-21 08:39:11,887 - INFO - Loading JSON file: brands.json
+2025-07-21 08:39:11,888 - WARNING - File brands.json is not a JSON array, loading line-by-line.
+2025-07-21 08:39:11,894 - INFO - Loading JSON file: receipts.json
+2025-07-21 08:39:11,900 - WARNING - File receipts.json is not a JSON array, loading line-by-line.
+2025-07-21 08:39:11,927 - INFO - Inserting users...
+2025-07-21 08:39:24,167 - INFO - Users inserted successfully.
+2025-07-21 08:39:24,167 - INFO - Inserting brands...
+2025-07-21 08:40:35,507 - INFO - Brands inserted successfully.
+2025-07-21 08:40:35,510 - INFO - Inserting receipts and items...
+2025-07-21 08:40:35,647 - ERROR - MySQL Error: 1062 (23000): Duplicate entry '5ff1e1eb0a720f0523000575-1' for key 'PRIMARY'
+2025-07-21 08:48:18,127 - INFO - Connecting to MySQL database
+2025-07-21 08:48:18,495 - INFO - Loading JSON file: users.json
+2025-07-21 08:48:18,500 - WARNING - File users.json is not a JSON array, loading line-by-line.
+2025-07-21 08:48:18,504 - INFO - Loading JSON file: brands.json
+2025-07-21 08:48:18,505 - WARNING - File brands.json is not a JSON array, loading line-by-line.
+2025-07-21 08:48:18,513 - INFO - Loading JSON file: receipts.json
+2025-07-21 08:48:18,518 - WARNING - File receipts.json is not a JSON array, loading line-by-line.
+2025-07-21 08:48:18,542 - INFO - Inserting users...
+2025-07-21 08:48:30,619 - INFO - Users inserted successfully.
+2025-07-21 08:48:30,619 - INFO - Inserting brands...
+2025-07-21 08:48:57,564 - INFO - Connecting to MySQL database
+2025-07-21 08:48:57,929 - INFO - Loading JSON file: users.json
+2025-07-21 08:48:57,935 - WARNING - File users.json is not a JSON array, loading line-by-line.
+2025-07-21 08:48:57,937 - INFO - Loading JSON file: brands.json
+2025-07-21 08:48:57,938 - WARNING - File brands.json is not a JSON array, loading line-by-line.
+2025-07-21 08:48:57,941 - INFO - Loading JSON file: receipts.json
+2025-07-21 08:48:57,944 - WARNING - File receipts.json is not a JSON array, loading line-by-line.
+2025-07-21 08:48:57,960 - INFO - Inserting users...
+2025-07-21 08:49:10,066 - INFO - Users inserted successfully.
+2025-07-21 08:49:10,066 - INFO - Inserting brands...
+2025-07-21 08:50:17,849 - INFO - Brands inserted successfully.
+2025-07-21 08:50:17,849 - INFO - Inserting receipts and items...
+2025-07-21 08:50:17,962 - ERROR - MySQL Error: 1062 (23000): Duplicate entry '5ff1e1eb0a720f0523000575-1' for key 'PRIMARY'
+2025-07-21 08:52:24,641 - INFO - Connecting to MySQL database
+2025-07-21 08:52:25,027 - INFO - Loading JSON file: users.json
+2025-07-21 08:52:25,029 - WARNING - File users.json is not a JSON array, loading line-by-line.
+2025-07-21 08:52:25,034 - INFO - Loading JSON file: brands.json
+2025-07-21 08:52:25,035 - WARNING - File brands.json is not a JSON array, loading line-by-line.
+2025-07-21 08:52:25,051 - INFO - Loading JSON file: receipts.json
+2025-07-21 08:52:25,055 - WARNING - File receipts.json is not a JSON array, loading line-by-line.
+2025-07-21 08:52:25,078 - INFO - Inserting users...
+2025-07-21 08:52:38,241 - INFO - Users inserted successfully.
+2025-07-21 08:52:38,242 - INFO - Inserting brands...
+2025-07-21 08:53:50,859 - INFO - Brands inserted successfully.
+2025-07-21 08:53:50,860 - INFO - Inserting receipts and items...
+2025-07-21 08:53:53,181 - WARNING - Receipt 5f9c74f70a7214ad07000037 references missing userId 5f9c74f7c88c1415cbddb839, skipping insert.
+2025-07-21 08:53:53,307 - WARNING - Receipt 5ff1e1e90a7214ada1000569 references missing userId 5ff1e1e9b6a9d73a3a9f10f6, skipping insert.
+2025-07-21 08:53:53,308 - WARNING - Receipt 5ff1e1df0a7214ada1000564 references missing userId 5ff1e1dfcfcf6c399c274ab3, skipping insert.
+2025-07-21 08:53:54,336 - WARNING - Receipt 5f9c74f90a7214ad07000038 references missing userId 5f9c74e3f1937815bd2c1d73, skipping insert.
+2025-07-21 08:53:54,337 - WARNING - Receipt 5ff1e1960a720f0523000567 references missing userId 5ff1e196cfcf6c399c274a38, skipping insert.
+2025-07-21 08:53:59,193 - WARNING - Receipt 5ff36d780a7214ada1000593 references missing userId 5ff36d78135e7011bcb86488, skipping insert.
+2025-07-21 08:54:01,786 - WARNING - Receipt 5ff3416f0a7214ada1000576 references missing userId 5c3388caea88e15513a95069, skipping insert.
+2025-07-21 08:54:03,086 - WARNING - Receipt 5ff371240a7214ada10005b3 references missing userId 5ff37124135e7011bcb86bc3, skipping insert.
+2025-07-21 08:54:03,477 - WARNING - Receipt 5ff3416d0a7214ada1000575 references missing userId 5c3388caea88e15513a95069, skipping insert.
+2025-07-21 08:54:04,411 - WARNING - Receipt 5ff473f30a720f05230005c0 references missing userId 5ff473f3c1e2d0121a9b2707, skipping insert.
+2025-07-21 08:54:05,763 - WARNING - Receipt 5ff4ce690a7214ada10005e2 references missing userId 5ff4ce68c1e2d0121a9b3022, skipping insert.
+2025-07-21 08:54:06,290 - WARNING - Receipt 5fa5ad370a720f05ef000089 references missing userId 5fa5ad376a26f611e71ab5ef, skipping insert.
+2025-07-21 08:54:06,290 - WARNING - Receipt 5ff4ce650a7214ada10005e1 references missing userId 5ff4ce65c3d63511e2a4853b, skipping insert.
+2025-07-21 08:54:06,432 - WARNING - Receipt 5ff4ce3c0a720f05230005c4 references missing userId 5ff4ce3cc1e2d0121a9b2fba, skipping insert.
+2025-07-21 08:54:14,496 - WARNING - Receipt 5ff5d19c0a7214ada10005eb references missing userId 5ff5d19b8f142f11dd188696, skipping insert.
+2025-07-21 08:54:14,983 - WARNING - Receipt 5ff73be50a720f0523000608 references missing userId 5ff73be5eb7c7d31ca8a45a7, skipping insert.
+2025-07-21 08:54:15,251 - WARNING - Receipt 5ff774200a7214ada1000638 references missing userId 5ff7741e04929111f6e90902, skipping insert.
+2025-07-21 08:54:16,386 - WARNING - Receipt 5ff7945a0a7214ada1000646 references missing userId 5ff79459b3348b11c933736d, skipping insert.
+2025-07-21 08:54:16,961 - WARNING - Receipt 5ff750050a7214ada1000633 references missing userId 5ff75004b3348b11c9336bd6, skipping insert.
+2025-07-21 08:54:18,466 - WARNING - Receipt 5ff73be90a720f052300060a references missing userId 5ff73be9eb7c7d31ca8a45bc, skipping insert.
+2025-07-21 08:54:18,816 - WARNING - Receipt 5ff794600a7214ada1000647 references missing userId 5ff7946004929111f6e90ceb, skipping insert.
+2025-07-21 08:54:18,816 - WARNING - Receipt 5ff726a40a720f05230005fa references missing userId 5ff726a38f142f11dd1895dc, skipping insert.
+2025-07-21 08:54:19,521 - WARNING - Receipt 5ff8da4e0a720f05c5000012 references missing userId 5ff8da4e04929111f6e91462, skipping insert.
+2025-07-21 08:54:20,080 - WARNING - Receipt 5ff8da7c0a7214adca000020 references missing userId 5ff8da7c04929111f6e914de, skipping insert.
+2025-07-21 08:54:20,080 - WARNING - Receipt 5ff8da650a7214adca00001e references missing userId 5ff8da65b3348b11c9337b29, skipping insert.
+2025-07-21 08:54:21,740 - WARNING - Receipt 5ff8da620a7214adca00001d references missing userId 5ff8da62b3348b11c9337b21, skipping insert.
+2025-07-21 08:54:22,626 - WARNING - Receipt 5fa5b0ca0a720f05ef0000bf references missing userId 5fa5b0b720dc5111dd86dcc1, skipping insert.
+2025-07-21 08:54:22,754 - WARNING - Receipt 5ff8c8880a7214adca000008 references missing userId 5ff8c88604929111f6e913b7, skipping insert.
+2025-07-21 08:54:22,817 - WARNING - Receipt 5ff873d40a720f0523000644 references missing userId 5ff873d304929111f6e91096, skipping insert.
+2025-07-21 08:54:23,372 - WARNING - Receipt 5ffc98b70a720f05c500003d references missing userId 5ffc98b604929111f6e923f5, skipping insert.
+2025-07-21 08:54:23,635 - WARNING - Receipt 5ffc9d8c0a7214adca000049 references missing userId 5ffc9d8cb3348b11c9338927, skipping insert.
+2025-07-21 08:54:23,637 - WARNING - Receipt 5ffc9da40a7214adca000050 references missing userId 5ffc9da0b3348b11c9338951, skipping insert.
+2025-07-21 08:54:23,773 - WARNING - Receipt 5ffc8cc20a720f05c5000026 references missing userId 5ffc8cc104929111f6e922a3, skipping insert.
+2025-07-21 08:54:23,775 - WARNING - Receipt 5ffc9da10a720f05c5000043 references missing userId 5ffc9da0b3348b11c9338951, skipping insert.
+2025-07-21 08:54:23,775 - WARNING - Receipt 5ffcb4b90a720f051500000c references missing userId 5ffcb4b9b3348b11c9338ae7, skipping insert.
+2025-07-21 08:54:23,776 - WARNING - Receipt 5ffca2f30a720f05c5000054 references missing userId 5ffca2f3b3348b11c9338a10, skipping insert.
+2025-07-21 08:54:24,696 - WARNING - Receipt 5ffc92a20a7214adca000046 references missing userId 5ffc92a104929111f6e923cb, skipping insert.
+2025-07-21 08:54:24,812 - WARNING - Receipt 5ffc9da10a7214adca00004d references missing userId 5ffc9da0b3348b11c9338951, skipping insert.
+2025-07-21 08:54:25,015 - WARNING - Receipt 5ffcb48d0a7214ad4e000002 references missing userId 5ffcb48d04929111f6e92594, skipping insert.
+2025-07-21 08:54:25,016 - WARNING - Receipt 5ffc9da20a7214adca00004e references missing userId 5ffc9da0b3348b11c9338951, skipping insert.
+2025-07-21 08:54:25,571 - WARNING - Receipt 5ffc9d9d0a720f05c5000042 references missing userId 5ffc9d9d04929111f6e9244f, skipping insert.
+2025-07-21 08:54:25,572 - WARNING - Receipt 5ffc9d9c0a7214adca00004b references missing userId 5ffc9d9cb3348b11c933893f, skipping insert.
+2025-07-21 08:54:25,875 - WARNING - Receipt 5ffc8cb40a720f05c5000025 references missing userId 5ffc8cb304929111f6e9229d, skipping insert.
+2025-07-21 08:54:25,876 - WARNING - Receipt 5ffcb4b80a7214ad4e00000d references missing userId 5ffcb4b8b3348b11c9338ae1, skipping insert.
+2025-07-21 08:54:30,480 - WARNING - Receipt 5fff26ee0a720f05f300001a references missing userId 5fff2698b3348b03eb45bb10, skipping insert.
+2025-07-21 08:54:30,975 - WARNING - Receipt 5fff561b0a720f05f300002e references missing userId 5fff561abd4dff11dda8fa2b, skipping insert.
+2025-07-21 08:54:30,976 - WARNING - Receipt 5fff26fd0a720f05f300001d references missing userId 5fff2698b3348b03eb45bb10, skipping insert.
+2025-07-21 08:54:30,976 - WARNING - Receipt 5fff26fb0a7214ad4c000019 references missing userId 5fff2698b3348b03eb45bb10, skipping insert.
+2025-07-21 08:54:32,430 - WARNING - Receipt 5fff26cb0a7214ad4c00000e references missing userId 5fff2698b3348b03eb45bb10, skipping insert.
+2025-07-21 08:54:32,684 - WARNING - Receipt 5fff26990a720f05f300000b references missing userId 5fff2698b3348b03eb45bb10, skipping insert.
+2025-07-21 08:54:32,806 - WARNING - Receipt 5fff26d70a7214ad4c00000f references missing userId 5fff2698b3348b03eb45bb10, skipping insert.
+2025-07-21 08:54:33,436 - WARNING - Receipt 5fff26f10a7214ad4c000018 references missing userId 5fff2698b3348b03eb45bb10, skipping insert.
+2025-07-21 08:54:33,999 - WARNING - Receipt 5fff4c7d0a720f05f3000022 references missing userId 5fff4c7d61ffa811fdb0856f, skipping insert.
+2025-07-21 08:54:34,246 - WARNING - Receipt 6000b8840a720f05f300006c references missing userId 6000b884fb296c121a81ad3b, skipping insert.
+2025-07-21 08:54:36,585 - WARNING - Receipt 6000d4aa0a720f05f3000072 references missing userId 6000d4aafb296c121a81b27e, skipping insert.
+2025-07-21 08:54:38,082 - WARNING - Receipt 6000d4b50a720f05f3000078 references missing userId 6000d4b5fb296c121a81b2bd, skipping insert.
+2025-07-21 08:54:40,082 - WARNING - Receipt 600082b40a720f05f3000058 references missing userId 5e56d38507a0df22a15dfc85, skipping insert.
+2025-07-21 08:56:32,161 - WARNING - Receipt 6007423c0a720f05fa000001 references missing userId 6007423b6e6469120a787c2c, skipping insert.
+2025-07-21 08:56:35,137 - WARNING - Receipt 6006f2d10a7214ad4c00008b references missing userId 6006f1c5e257127d5d9aedfb, skipping insert.
+2025-07-21 08:56:45,893 - WARNING - Receipt 60088d5d0a7214ad890000ed references missing userId 60088d5cb6310511daa4ee6f, skipping insert.
+2025-07-21 08:56:46,640 - WARNING - Receipt 600841da0a7214ad89000051 references missing userId 6008412f6e64697abedcd5d5, skipping insert.
+2025-07-21 08:56:47,227 - WARNING - Receipt 6008625b0a7214ad89000063 references missing userId 600861d3be5fc9247bab3e0c, skipping insert.
+2025-07-21 08:56:47,455 - WARNING - Receipt 600887ae0a7214ad8900008a references missing userId 600887a5b6310511daa4e9a7, skipping insert.
+2025-07-21 08:56:47,587 - WARNING - Receipt 60088d580a7214ad890000eb references missing userId 60088d58633aab121bb8e424, skipping insert.
+2025-07-21 08:56:47,848 - WARNING - Receipt 60088d600a7214ad890000ef references missing userId 60088d5cb6310511daa4ee6f, skipping insert.
+2025-07-21 08:56:47,849 - WARNING - Receipt 6008888f0a720f05fa0000b5 references missing userId 60088838633aab121bb8df69, skipping insert.
+2025-07-21 08:56:48,041 - WARNING - Receipt 600788cd0a7214ad8900003a references missing userId 5cd06f1f2acf0a2667da628b, skipping insert.
+2025-07-21 08:56:48,995 - WARNING - Receipt 600862490a720f05fa000072 references missing userId 600861d3be5fc9247bab3e0c, skipping insert.
+2025-07-21 08:56:48,999 - WARNING - Receipt 60088af80a7214ad890000d6 references missing userId 60088af5633aab121bb8e31b, skipping insert.
+2025-07-21 08:56:49,000 - WARNING - Receipt 60088d5f0a720f05fa0000fc references missing userId 60088d5cb6310511daa4ee6f, skipping insert.
+2025-07-21 08:56:49,000 - WARNING - Receipt 600862530a720f05fa000074 references missing userId 600861d3be5fc9247bab3e0c, skipping insert.
+2025-07-21 08:56:49,000 - WARNING - Receipt 60088aff0a7214ad890000da references missing userId 60088aff633aab121bb8e33d, skipping insert.
+2025-07-21 08:56:51,904 - WARNING - Receipt 6009f9000a7214ada2000005 references missing userId 6009f6927d983a124e9adaad, skipping insert.
+2025-07-21 08:57:13,547 - WARNING - Receipt 6009fd790a720f0535000006 references missing userId 6009fd1550b33111943850b1, skipping insert.
+2025-07-21 08:57:14,617 - WARNING - Receipt 600996ac0a720f05fa000134 references missing userId 6009969150b33111fd61f6d9, skipping insert.
+2025-07-21 08:57:14,618 - WARNING - Receipt 600b34ca0a7214ada200000c references missing userId 600b349550b3311194385600, skipping insert.
+2025-07-21 08:57:14,618 - WARNING - Receipt 600b2dd60a7214ada200000b references missing userId 600b2d7a50b33111943855cb, skipping insert.
+2025-07-21 08:57:14,618 - WARNING - Receipt 600affe60a7214ada2000009 references missing userId 600afb2a7d983a124e9aded0, skipping insert.
+2025-07-21 08:57:14,618 - WARNING - Receipt 600a1a8d0a7214ada2000008 references missing userId 600a1a457d983a124e9adb9b, skipping insert.
+2025-07-21 08:57:14,619 - WARNING - Receipt 600aff160a720f053500000c references missing userId 600afb2a7d983a124e9aded0, skipping insert.
+2025-07-21 08:57:14,619 - WARNING - Receipt 600afbd90a720f053500000b references missing userId 600afb2a7d983a124e9aded0, skipping insert.
+2025-07-21 08:57:14,619 - WARNING - Receipt 600b420b0a7214ada200000d references missing userId 600b41d050b3311194385655, skipping insert.
+2025-07-21 08:57:14,619 - WARNING - Receipt 600af82f0a720f053500000a references missing userId 600af8097d983a124e9adeb3, skipping insert.
+2025-07-21 08:57:14,619 - WARNING - Receipt 600b39f60a720f053500000e references missing userId 600b39ce50b331119438562a, skipping insert.
+2025-07-21 08:57:14,619 - WARNING - Receipt 600b139e0a7214ada200000a references missing userId 600b00687d983a124e9adef9, skipping insert.
+2025-07-21 08:57:14,619 - WARNING - Receipt 600a1e270a720f0535000009 references missing userId 600a1ddf50b33111943851a2, skipping insert.
+2025-07-21 08:57:14,619 - WARNING - Receipt 600ba6ae0a7214ada2000010 references missing userId 600ba68e7d983a124e9ae1d3, skipping insert.
+2025-07-21 08:57:15,461 - WARNING - Receipt 600eda0c0a7214ada200001e references missing userId 600ed95043298911ce45e82c, skipping insert.
+2025-07-21 08:57:16,726 - WARNING - Receipt 600f489d0a7214ada200004a references missing userId 600f489d6fd0dc1768a35a88, skipping insert.
+2025-07-21 08:57:16,727 - WARNING - Receipt 600f014d0a7214ada200002d references missing userId 600f014d4329897eac238b88, skipping insert.
+2025-07-21 08:58:02,397 - WARNING - Receipt 600edb570a720f053500001d references missing userId 600ed95043298911ce45e82c, skipping insert.
+2025-07-21 08:58:38,486 - WARNING - Receipt 60118bea0a720f0535000064 references missing userId 60118beaa4b74c18d3a8c0f8, skipping insert.
+2025-07-21 08:58:38,731 - WARNING - Receipt 6010bdf60a7214ada2000059 references missing userId 6010bdf673c60b120490404e, skipping insert.
+2025-07-21 08:58:39,159 - WARNING - Receipt 6010be180a7214ada200005d references missing userId 6010be18a4b74c120bd19e43, skipping insert.
+2025-07-21 08:58:39,533 - WARNING - Receipt 5fa8d5790a7214adc30001c4 references missing userId 5fa8d542b055fd1dfdf09517, skipping insert.
+2025-07-21 08:58:39,837 - WARNING - Receipt 6010be1c0a720f0535000057 references missing userId 6010be1c73c60b1204904079, skipping insert.
+2025-07-21 08:58:40,761 - WARNING - Receipt 60118c0a0a720f0535000067 references missing userId 60118c09a4b74c18d3a8c12e, skipping insert.
+2025-07-21 08:58:40,888 - WARNING - Receipt 5fa8d5730a7214adc30001c3 references missing userId 5fa8d573770b516dda4f4d21, skipping insert.
+2025-07-21 08:58:42,569 - WARNING - Receipt 6012ea2d0a720f05f8000068 references missing userId 6012e1e6a4b74c3cbc516088, skipping insert.
+2025-07-21 08:58:47,293 - WARNING - Receipt 600f2fc80a720f0535000030 references missing userId 600f29a64329897eac239049, skipping insert.
+2025-07-21 08:58:47,294 - WARNING - Receipt 60132b890a7214ad50000013 references missing userId 60132b8873c60b3ca7f3bae8, skipping insert.
+2025-07-21 08:58:49,127 - WARNING - Receipt 601443600a7214ad50000060 references missing userId 6014436084231211ce793ced, skipping insert.
+2025-07-21 08:58:49,522 - WARNING - Receipt 60147ba00a7214ad500000d3 references missing userId 60147a84c8b50e11d8453f29, skipping insert.
+2025-07-21 08:58:49,762 - WARNING - Receipt 60145a540a720f05f8000116 references missing userId 60145a5467804a1228b20ded, skipping insert.
+2025-07-21 08:58:50,417 - WARNING - Receipt 60145a510a7214ad50000086 references missing userId 60145a5167804a1228b20ddd, skipping insert.
+2025-07-21 08:58:51,217 - WARNING - Receipt 601455a80a720f05f8000107 references missing userId 6014554a67804a1228b20ca9, skipping insert.
+2025-07-21 08:58:51,217 - WARNING - Receipt 601455820a720f05f80000fb references missing userId 6014558284231211ce796b88, skipping insert.
+2025-07-21 08:58:51,406 - WARNING - Receipt 601442710a720f05f80000bb references missing userId 601441a984231211ce792603, skipping insert.
+2025-07-21 08:58:51,407 - WARNING - Receipt 6014435e0a720f05f80000d1 references missing userId 6014435467804a1228b1dcaf, skipping insert.
+2025-07-21 08:58:56,099 - WARNING - Receipt 601836c70a720f05f8000364 references missing userId 601836c2c8b50e11d8454b58, skipping insert.
+2025-07-21 08:58:56,281 - WARNING - Receipt 601830cd0a720f05f800034f references missing userId 601830cdc8b50e11d8454a6f, skipping insert.
+2025-07-21 08:58:56,397 - WARNING - Receipt 60182f290a720f05f800032f references missing userId 60182f1dc8b50e11d84548c4, skipping insert.
+2025-07-21 08:58:56,584 - WARNING - Receipt 601890c70a7214ad28000028 references missing userId 601890689a1b091205b61c87, skipping insert.
+2025-07-21 08:58:56,584 - WARNING - Receipt 60183c850a7214ad50000308 references missing userId 60183c839a1b091205b61aca, skipping insert.
+2025-07-21 08:58:56,584 - WARNING - Receipt 601830ce0a7214ad500002df references missing userId 601830ce9a1b091205b618e8, skipping insert.
+2025-07-21 08:58:56,585 - WARNING - Receipt 60182f370a720f05f8000335 references missing userId 60182f1dc8b50e11d84548c4, skipping insert.
+2025-07-21 08:58:56,904 - WARNING - Receipt 60182f390a7214ad500002b8 references missing userId 60182f1dc8b50e11d84548c4, skipping insert.
+2025-07-21 08:58:56,966 - WARNING - Receipt 601830d30a7214ad500002e1 references missing userId 601830ce9a1b091205b618e8, skipping insert.
+2025-07-21 08:58:56,966 - WARNING - Receipt 6018369f0a7214ad500002f1 references missing userId 601836829a1b091205b6194d, skipping insert.
+2025-07-21 08:58:57,226 - WARNING - Receipt 60182f610a720f05f800033e references missing userId 60182f1dc8b50e11d84548c4, skipping insert.
+2025-07-21 08:58:57,226 - WARNING - Receipt 601890b80a7214ad28000020 references missing userId 601890b2c8b50e11d8454e82, skipping insert.
+2025-07-21 08:58:57,425 - WARNING - Receipt 601890d50a720f05f4000057 references missing userId 601890689a1b091205b61c87, skipping insert.
+2025-07-21 08:58:59,355 - WARNING - Receipt 60189c920a7214ad2800003a references missing userId 60189c92c8b50e11d8454f5d, skipping insert.
+2025-07-21 08:58:59,356 - WARNING - Receipt 5fb1bd510a7214ad890000e3 references missing userId 5fb1bd519c09d811e5211cef, skipping insert.
+2025-07-21 08:58:59,785 - WARNING - Receipt 60189c900a7214ad28000038 references missing userId 60189c90c8b50e11d8454f49, skipping insert.
+2025-07-21 08:59:00,877 - WARNING - Receipt 5fb2da580a7214ad89000114 references missing userId 5fb2da582357ec11d4ecc403, skipping insert.
+2025-07-21 08:59:01,464 - WARNING - Receipt 601b2c090a7214ad2800021a references missing userId 542ace60e4b0b3d724922499, skipping insert.
+2025-07-21 08:59:01,654 - WARNING - Receipt 601aaf580a7214ad280001ca references missing userId 601aaebde409201029849b3c, skipping insert.
+2025-07-21 08:59:01,655 - WARNING - Receipt 601aaf7a0a720f05f40001e8 references missing userId 601aaebde409201029849b3c, skipping insert.
+2025-07-21 08:59:02,393 - WARNING - Receipt 601aaf710a720f05f40001e6 references missing userId 601aaebde409201029849b3c, skipping insert.
+2025-07-21 08:59:03,477 - WARNING - Receipt 601c68ce0a7214ad280002d6 references missing userId 601c68ce29c30a1227ada468, skipping insert.
+2025-07-21 08:59:08,544 - WARNING - Receipt 601ead690a720f053c000092 references missing userId 601ead00b57b8a12187fce78, skipping insert.
+2025-07-21 08:59:09,097 - WARNING - Receipt 601ead5b0a720f053c00008f references missing userId 601ead00b57b8a12187fce78, skipping insert.
+2025-07-21 08:59:13,218 - WARNING - Receipt 602176c90a7214d8e9000028 references missing userId 6021768799409b11fcf8987f, skipping insert.
+2025-07-21 08:59:13,406 - WARNING - Receipt 602160a30a720f05c0000001 references missing userId 54ca99a9e4b0b11b4f7d6dc5, skipping insert.
+2025-07-21 08:59:15,857 - WARNING - Receipt 6024024b0a7214d8e900018d references missing userId 602401f1c081001222409ad6, skipping insert.
+2025-07-21 08:59:16,121 - WARNING - Receipt 602454340a720f05a80001ae references missing userId 60245433efa60112282c1859, skipping insert.
+2025-07-21 08:59:16,312 - WARNING - Receipt 6024024b0a7214d8e900018c references missing userId 602401f1c081001222409ad6, skipping insert.
+2025-07-21 08:59:16,489 - WARNING - Receipt 602429930a720f05a800018b references missing userId 6024291f58b989121e6bad5f, skipping insert.
+2025-07-21 08:59:16,549 - WARNING - Receipt 602402750a720f05a800016f references missing userId 602401f1c081001222409ad6, skipping insert.
+2025-07-21 08:59:17,242 - WARNING - Receipt 602402600a7214d8e9000195 references missing userId 602401f1c081001222409ad6, skipping insert.
+2025-07-21 08:59:17,927 - WARNING - Receipt 6025386a0a7214d8e9000241 references missing userId 60253861efa6017a44dc6b50, skipping insert.
+2025-07-21 08:59:18,045 - WARNING - Receipt 602538b30a7214d8e9000248 references missing userId 60253861efa6017a44dc6b50, skipping insert.
+2025-07-21 08:59:18,239 - WARNING - Receipt 602538740a7214d8e9000246 references missing userId 60253861efa6017a44dc6b50, skipping insert.
+2025-07-21 08:59:18,240 - WARNING - Receipt 602538920a720f05a8000216 references missing userId 60253891b54593795bf69242, skipping insert.
+2025-07-21 08:59:18,940 - WARNING - Receipt 602538960a720f05a800021b references missing userId 60253891b54593795bf69242, skipping insert.
+2025-07-21 08:59:20,302 - WARNING - Receipt 60268c7e0a7214d8e9000309 references missing userId 60268c7bb545931ac63683af, skipping insert.
+2025-07-21 08:59:20,542 - WARNING - Receipt 60268c790a7214d8e9000306 references missing userId 60268c78efa6011bb151077d, skipping insert.
+2025-07-21 08:59:33,741 - INFO - Receipts and items inserted successfully.

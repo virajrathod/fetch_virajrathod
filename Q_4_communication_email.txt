@@ -1,0 +1,23 @@
+Subject: Certificate Data Quality – Questions & Next Steps
+
+Hi,
+
+As we ramp up ingestion of receipt/brands data into our platform, a few quality issues have surfaced that I wanted to flag early so we’re aligned. These could affect reporting accuracy or downstream integrations if not addressed.
+
+I am seeing inconsistencies in the incoming JSON files—some files have multiple objects or malformed structures, and others reference certificate authorities or chunk IDs that don’t yet exist in our system. I’d love to clarify a few points to help us move forward smoothly:
+
+* Should I expect each file to contain one certificate, or is multi-cert JSON expected?
+* Are foreign key references (e.g. CA IDs, chunk IDs) guaranteed to exist prior to insert, or should I be creating those on the fly?
+
+I discovered these issues during batch inserts where I hit schema validation and FK constraint errors. Some files also had duplicate or inconsistent serial numbers.
+
+To resolve this cleanly, I would need guidance on whether to reject bad records, hold them for review, or attempt automated fixes (e.g. defaulting missing fields). 
+It would also help to understand the long-term goals for this dataset—whether it’s intended for internal visibility, compliance use, or external search and analytics—so I can design with the right quality and scale guarantees.
+
+Looking ahead, I am building safeguards to handle scale (growing file size and frequency) using batch inserts, error logging, and retry logic. 
+But I would want to partner with the source team to enforce more consistent formatting and upstream checks as well.
+
+Let me know if I can sync on this or if there’s someone from the source/data team I should loop in.
+
+Best,
+Viraj

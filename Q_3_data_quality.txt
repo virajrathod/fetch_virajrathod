@@ -1,0 +1,18 @@
+-- Check for receipts with negative or zero totalSpent
+SELECT COUNT(*) FROM receipts WHERE totalSpent <= 0 OR totalSpent IS NULL;
+
+For the Q2. in the queries, the barcode does not match with the data in brands table.
+Many user records have duplicate _id values.
+
+Data Audit script output:
+Loaded 495 users and 1119 receipts
+Unique users found: 212
+Receipts referencing missing users: 148
+Sample receipts with missing users: ['5f9c74f70a7214ad07000037', '5ff1e1e90a7214ada1000569', '5ff1e1df0a7214ada1000564', '5f9c74f90a7214ad07000038', '5ff1e1960a720f0523000567']
+Duplicate user IDs found: 70
+Receipts with finishedDate earlier than createDate: 0
+Receipts with purchasedItemCount mismatch: 648
+Sample receipts with item count mismatch: ['5ff1e1eb0a720f0523000575', '5ff1e1ee0a7214ada100056f', '5ff1e1ed0a7214ada100056e', '5ff1e1eb0a7214ada100056b', '5ff1e1a10a720f0523000568']
+
+2025-07-21 08:57:14,617 - WARNING - Receipt 600996ac0a720f05fa000134 references missing userId 6009969150b33111fd61f6d9, skipping insert.
+
